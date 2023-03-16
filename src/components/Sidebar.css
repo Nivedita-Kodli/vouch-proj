@@ -1,0 +1,93 @@
+.sidebar-container {
+    width: 25vw;
+    height: 100vh;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(3, 0, 55, 0.08);
+}
+
+.sidebar-container .company {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #233244;
+}
+
+.sidebar-container .top input {
+    width: 304px;
+    height: 40px;
+    border: 1px solid #E6E6E6;
+    border-radius: 24px;
+}
+
+.sidebar-container .client-record{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #B8BABC;
+}
+
+.sidebar-container .view-client {
+    padding: 8px 16px;
+    width: 304px;
+    height: 38px;
+    color: #686687;
+    background: #FFFFFF;    
+    box-shadow: 0px 1px 5px rgba(3, 0, 55, 0.08);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sidebar-container .add-client {
+    padding: 8px 16px;
+    width: 304px;
+    height: 38px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #686687;
+    background: #FFFFFF;    
+    box-shadow: 0px 1px 5px rgba(3, 0, 55, 0.08);
+    cursor: pointer;
+}
+
+.bottom {
+    width: 100%;
+}
+
+.bottom .image-sidebar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.bottom .username {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #233244;
+}
+
+.bottom .user-email {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #233244;
+}
+
+.bottom .icon {
+    color: #8E96A0;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+a .active {
+    padding: 8px 16px;
+    width: 304px;
+    height: 38px;
+    background: #153AC7;
+    box-shadow: 0px 4px 16px rgba(3, 0, 55, 0.08);
+    color: #FFFFFF;
+}

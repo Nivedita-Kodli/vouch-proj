@@ -1,0 +1,70 @@
+.right-container .right-header {
+    width: 75vw;
+    height: 100vh;
+    background: #F5F5F5;
+}
+
+.right-header .client-cat {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120%;
+    color: #030037;
+}
+
+.right .client-nav {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #030037;
+}
+
+.right-container .center-section {
+    margin: 1rem;
+    height: 70vh;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(3, 0, 55, 0.08);
+    border-radius: 8px;
+}
+
+.center-section-top {
+    width: 100%;
+}
+
+.client-head {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.0025em;
+    color: #030037;
+    margin-left: 1rem;
+}
+
+.center-section form .client-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0025em;
+    color: #686687;
+    margin-left: 1rem;
+}
+
+.logo-head {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #030037;
+}
+
+.left-modules {
+    width: 30vw;
+}
+
+.right-modules {
+    width: 70vw;
+}
+
+li {
+    list-style: none;
+}

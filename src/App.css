@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+a {
+    text-decoration: none;
+    color: #686687;
   }
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.left-section{
+    width: 40%;
+    height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.left-section .main-container{
+    width: 30%;
+    margin: 0 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left-section .image {
+    width: 220px;
+    height: 104px;
+    margin-top: 48px;
+    
+}
+
+.heading {
+    color: #030037;
+    font-weight: 800;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 44px;
+    letter-spacing: -0.005em;
+}
+
+.heading-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #686687;
+    letter-spacing: 0.0025em;
+}
+
+.footer{
+    margin-bottom: 48px;
+}
+
+.footer .footer-text {
+    display: inline;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0025em;
+    color: #233244;
+    margin: 0 5px;
+}
+
+.footer .footer-copyright {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+}
+
+.right-section {
+    width: 60%;
+    height: 100vh;
+    background-color: #1334b3;
+}
+
+.rectangle-image-main {
+    width: 360px;
+    height: 210px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 48px rgba(3, 0, 55, 0.15);
+    border-radius: 10px;
+    transform: perspective(700px) rotateY(30deg);
+    position: relative;
+}
+
+
+.rectangle-image-upper {
+    width: 440px;
+    height: 180px;
+    background: #FFFFFF;
+    opacity: 0.05;
+    border-radius: 8px;
+    transform: perspective(400px) rotateY(-30deg);
+    position: absolute;
+    top: 105px;
+    right: 220px;
+}
+
+.right-section .right-heading {   
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+}
+
+
+.right-texts {
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.005em;
+color: #F8F9FD;
 }
