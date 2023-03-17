@@ -15,7 +15,7 @@ const Sidebar = () => {
                 </div>
                 <div className='client-record mt-3'>client master</div>
                 <NavLink to='/admin'><div className='view-client mt-3'>View Clients</div></NavLink>
-                <NavLink to='/add-client'><div className='add-client mt-3'>Add Client</div></NavLink>
+                <NavLink to='/add-client/create-profile'><div className='add-client mt-3'>Add Client</div></NavLink>
             </div>
             <div className='bottom d-flex align-items-center mb-3' >
                 <div className='image-sidebar me-3 p-2'></div>

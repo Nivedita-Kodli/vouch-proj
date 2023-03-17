@@ -32,7 +32,7 @@ const Loginpage = () => {
                 <div className='footer'>
                     <div className='footer-text'>Terms of Use </div>
                     <div className='footer-text'>Privacy Policy</div>
-                    <div className='footer-copyright'>© Akash 2023. All rights reserved</div>
+                    <div className='footer-copyright'>© Nivedita 2023. All rights reserved</div>
                 </div>
 
             </div>
